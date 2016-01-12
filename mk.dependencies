@@ -4,10 +4,14 @@
    "target_path": "device/qcom/common"
  },
  {
+   "repository": "android_vendor_xiaomi_cancro",
+   "target_path": "vendor/xiaomi/cancro"
+ },
+ {
    "repository": "android_kernel_xiaomi_cancro",
    "target_path": "kernel/xiaomi/cancro"
  },
-  {
+ {
    "repository": "android_hardware_sony_thermanager",
    "target_path": "hardware/sony/thermanager"
  }
