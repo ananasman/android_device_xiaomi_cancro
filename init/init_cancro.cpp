@@ -89,9 +89,14 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
             property_set("ro.telephony.default_network", "10");
             property_set("ro.ril.def.preferred.network", "10");
             break;
+        case 1972:
+            property_set("ro.product.model", "MI 4LTE");
+            property_set("ro.product.name", "cancro_wc_lte");
+            property_set("ro.telephony.default_network", "8");
+            property_set("telephony.lteOnGSMDevice", "1");
         default:
             // Other unsupported variants
-            property_set("ro.product.model", "Unsupported MI Cancro");
+            property_set("ro.product.model", "MI 3/4");
             break;
     }
 }
